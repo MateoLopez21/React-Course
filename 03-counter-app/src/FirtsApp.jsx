@@ -10,7 +10,7 @@ export const FirtsApp = ( { name } ) => {
 
     return (
         <>
-            <h1> { newSaludo(name) } </h1>
+            <h1 data-testid="test-name"> { name } </h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, tempora? Sapiente nisi iure perferendis est esse quam aliquam odio aliquid soluta deleniti sunt, dolorum ipsam nihil sint vero omnis placeat.</p>
         </>
     )
